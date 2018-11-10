@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cincinnat Caffe</title>
+		<meta charset="utf-8">
+		<link href="/CincinnatiCaffe/Style/CafeShop.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+<div id="wrapper">
+			<div id="header">
+				<h1>Cincinnat Caffe</h1>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="/CincinnatiCaffe/Index.html">Home</a></li>
+					<li><a href="/CincinnatiCaffe/Menu.html">Menu</a></li>
+					<li><a href="/CincinnatiCaffe/Contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div id="content"> 
+<h2>Contact Us</h2>
+<p>Use the following form to send a message to Cincinnat Caffe</p>
+
+<form action="http://webdevbasics.net/scripts/demo.php" method="post" name="frmContact">
+
+
+    <table>
+      <tr>
+        <td>Your name</td>
+        <td><input type="text" name="txtName" id="nameFrom" size="20" maxlength="250"></td>
+      </tr>
+     <tr>
+        <td>Your email</td>
+		<td><input type="text" name="txtEmail" id="Email" size="20" maxlength="250"></td>
+      </tr>
+      <tr>
+        <td>Message</td>
+        <td><textarea name="txtBody" id="emailBody"  cols="50" rows="10"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>How did you hear of us?</td>
+        <td>
+	      <select name="selReferrer">
+    	    <option value="google">Google</option>
+	        <option value="yelp">Yelp</option>
+			<option value="ad">Local ad</option>
+	        <option value="friend">Friend</option>
+	        <option value="other">Other</option>
+	      </select>
+    	</td>
+      </tr>
+
+      <tr>
+        <td>Newsletter</td>
+        <td><input type="checkbox" name="chkBody" id="newsletterSignup" checked > Ensure this box is checked if you would like to receive email updates</td>
+      </tr>
+    </table>
+
+  <input type="submit" value="Send message">
+
+</form>
+</div>
+<div id="footer">Copyright &copy; 2018 Cincinnat Caffe</div>
+</div>
+
+</body>
+
+</html>
